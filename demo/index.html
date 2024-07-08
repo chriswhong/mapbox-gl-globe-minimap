@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Display a map on a webpage</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
+    <script src="../dist/bundle.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nIiwiYSI6IjAyYzIwYTJjYTVhMzUxZTVkMzdmYTQ2YzBmMTM0ZDAyIn0.owNd_Qa7Sw2neNJbK6zc1A';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            center: [-74.5, 40], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+            zoom: 3 // starting zoom
+        });
+
+        map.on("style.load", function () {
+            // Possible position values are 'bottom-left', 'bottom-right', 'top-left', 'top-right'
+            map.addControl(new mapboxgl.GlobeMinimap({
+                // landColor: '#f50202',
+                // waterColor: '#f55702',
+                // markerColor: '#63f502',
+                // globeSize: 300,
+                // markerSize: 3
+            }), 'bottom-right');
+        });
+    </script>
+
+</body>
+
+</html>
