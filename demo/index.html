@@ -39,7 +39,7 @@
         zoom: 3, // starting zoom
       });
 
-      map.on("style.load", function () {
+      map.on("load", function () {
         // Possible position values are 'bottom-left', 'bottom-right', 'top-left', 'top-right'
         map.addControl(
           new mapboxgl.GlobeMinimap({
@@ -48,8 +48,7 @@
             markerColor: "#c852fa",
             globeSize: 120,
             markerSize: 1.5,
-          }),
-          "bottom-right",
+          })
         );
       });
     </script>
