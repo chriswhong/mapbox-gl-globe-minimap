@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-globe-minimap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Mapbox GL JS Plugin to add a configurable globe minimap showing the main map's center.",
   "main": "src/index.js",
   "scripts": {
