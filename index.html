@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
-    <script src="../dist/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.1.1/dist/bundle.js"></script>
     <style>
       body {
         margin: 0;
@@ -42,13 +42,7 @@
       map.on("load", function () {
         // Possible position values are 'bottom-left', 'bottom-right', 'top-left', 'top-right'
         map.addControl(
-          new mapboxgl.GlobeMinimap({
-            landColor: "#4ebf6e",
-            waterColor: "#8dcbe3",
-            markerColor: "#c852fa",
-            globeSize: 120,
-            markerSize: 1.5,
-          })
+          new mapboxgl.GlobeMinimap()
         );
       });
     </script>
