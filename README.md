@@ -2,13 +2,13 @@
 
 A Mapbox GL JS Plugin that displays a globe minimap showing the main map's center.
 
+[Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-globe-minimap/)
+
 <img width="838" alt="Display_a_map_on_a_webpage" src="https://github.com/chriswhong/mapbox-gl-globe-minimap/assets/1833820/2ffb1824-ed07-4d56-89ad-dc574351d508">
 
 You can customize the colors and size of minimap, and scale the marker.
 
 <img width="840" alt="Display_a_map_on_a_webpage_and_index_html_—_globe-minimap" src="https://github.com/chriswhong/mapbox-gl-globe-minimap/assets/1833820/41813154-ac92-4516-b942-88114a61b55e">
-
-[Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-globe-minimap/)
 
 ## Install & Use
 
