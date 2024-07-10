@@ -1,14 +1,14 @@
 {
   "name": "mapbox-gl-globe-minimap",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Mapbox GL JS Plugin to add a configurable globe minimap showing the main map's center.",
   "main": "src/index.js",
   "scripts": {
     "build": "rollup --config rollup.config.mjs src/index.js",
     "watch": "rollup --config rollup.config.mjs src/index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "chriswhong",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.6.0",
