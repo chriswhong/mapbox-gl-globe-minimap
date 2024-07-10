@@ -4,7 +4,7 @@ A Mapbox GL JS Plugin that displays a globe minimap showing the main map's cente
 
 You can customize the colors and size of minimap, and scale the marker.
 
-Live Demo on Github Pages
+[Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-globe-minimap/)
 
 ## Install & Use
 
@@ -69,14 +69,15 @@ map.on("load", function () {
 ```
 
 ## Options
+
+
 | option      | type     | description                                    | default          |
 | ----------- | -------- | ---------------------------------------------- | ---------------- |
-| position    | `String` |                                                | `'bottom-right'` |
-| globeSize   | `Number` | Pixels to use for the diameter of the globe    | `82`             |
-| landColor   | `String` | HTML color to use for land areas on the globe  | `'#bbb'`         |
-| waterColor  | `String` | HTML color to use for water areas on the globe | `'#eee'`         |
-| markerColor | `String` | HTML color to use for the center point marker  | `'#CC0000'`      |
-| markerSize  | `Number` | Scale ratio for the center point marker        | `1`              |
+| `globeSize `  | `Number` | Pixels to use for the diameter of the globe    | `82`             |
+| `landColor`   | `String` | HTML color to use for land areas on the globe  | `'#bbb'`         |
+| `waterColor`  | `String` | HTML color to use for water areas on the globe | `'#eee'`         |
+| `markerColor` | `String` | HTML color to use for the center point marker  | `'#CC0000'`      |
+| `markerSize`  | `Number` | Scale ratio for the center point marker        | `1`              |
 
 
 
