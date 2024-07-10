@@ -1,9 +1,14 @@
 # Changelog
 
-## 1.0.0 
+## 1.1.1
 
-- First publish
+- add and run prettier
+- export from index.js, add global to rollup config
 
 ## 1.1.0
 
 - add /dist to version control
+
+## 1.0.0 
+
+- First publish
