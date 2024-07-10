@@ -14,7 +14,7 @@ You can customize the colors and size of minimap, and scale the marker.
 
 ### When using a CDN:
 
-Add the script tag to your HTML file:
+Add the script tag to your HTML file after importing Mapbox GL JS:
 ```
 <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.1.1/dist/bundle.js
 "></script>
