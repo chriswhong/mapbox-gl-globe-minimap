@@ -16,7 +16,7 @@ Add the script tag to your HTML file:
 "></script>
 ```
 
-On Map load, add the control:
+On Map load, add the control. You can specify the position of the globe using the second argument of `addControl()`:
 ```
 mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN';
 const map = new mapboxgl.Map({
@@ -31,7 +31,7 @@ map.on("load", function () {
             landColor: "#4ebf6e",
             waterColor: "#8dcbe3"
         }),
-        "bottom-right",
+        "bottom-right"
     );
 });
 ```
@@ -62,7 +62,7 @@ map.on("load", function () {
             landColor: "#4ebf6e",
             waterColor: "#8dcbe3"
         }),
-        "bottom-right",
+        "bottom-right"
     );
 });
 
