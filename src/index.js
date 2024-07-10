@@ -17,7 +17,6 @@ GlobeMinimap.prototype = Object.assign(
   {
     options: {
       id: "mapboxgl-globe-minimap",
-      position: "bottom-right",
       globeSize: 82,
       landColor: "#bbb",
       waterColor: "#eee",
