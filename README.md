@@ -4,7 +4,7 @@ A Mapbox GL JS Plugin that displays a globe minimap showing the main map's cente
 
 [Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-globe-minimap/)
 
-<img width="838" alt="Display_a_map_on_a_webpage" src="https://github.com/chriswhong/mapbox-gl-globe-minimap/assets/1833820/2ffb1824-ed07-4d56-89ad-dc574351d508">
+<img width="786" alt="Display_a_map_on_a_webpage-4" src="https://github.com/user-attachments/assets/4d0be846-47bb-438d-8a27-145036056be0">
 
 You can customize the colors and size of minimap, and scale the marker.
 
