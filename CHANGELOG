@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.1
+
+- remove assignment to mapboxgl, fix clearrect
+  - Assignment to mapboxgl is no longer required.
+  - Fixes a bug where the canvas was not properly cleared, allowing for transparent waterColor
+  - Updates default colors
+
+- initial 1s animation and delayed marker load
+  - The initial animation is 1s long, and rotates the minimap from [0,0] to the main map's center point. - - The marker fades in after this initial animation.
+
 ## 1.1.1
 
 - add and run prettier
