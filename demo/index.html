@@ -42,14 +42,14 @@
       map.on("load", function () {
         // Possible position values are 'bottom-left', 'bottom-right', 'top-left', 'top-right'
         map.addControl(
-          new mapboxgl.GlobeMinimap({
-            landColor: "#4ebf6e",
-            waterColor: "#8dcbe3",
-            markerColor: "#c852fa",
-            globeSize: 120,
-            markerSize: 1.5,
+          new GlobeMinimap({
+            // landColor: "#4ebf6e",
+            // waterColor: "#8dcbe3",
+            // markerColor: "#c852fa",
+            // globeSize: 120,
+            // markerSize: 1.5,
           }),
-          'bottom-right'
+          "bottom-right",
         );
       });
     </script>
