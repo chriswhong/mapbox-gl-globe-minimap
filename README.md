@@ -82,3 +82,9 @@ map.on("load", function () {
 | `waterColor`  | `String` | HTML color to use for water areas on the globe | `'rgba(30 40 70/60%)'` |
 | `markerColor` | `String` | HTML color to use for the center point marker  | `'#ff2233'`            |
 | `markerSize`  | `Number` | Scale ratio for the center point marker        | `1`                    |
+
+## Attribution
+
+This is a modern incarnation of [`leaflet-globeminimap`](https://github.com/chriswhong/leaflet-globeminimap), a leaflet plugin I made a while back. That plugin was inspired by the globe minimap used by the [Google Earth View](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=en) Chrome plugin.
+
+Plugin architecture was derived from `https://github.com/aesqe/mapboxgl-minimap`, and the modern `d3.geoOrthographic` implementation is based on [this observable notebook](https://observablehq.com/@d3/rotating-orthographic).
