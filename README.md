@@ -17,7 +17,7 @@ You can customize the colors and size of minimap, and scale the marker.
 Add the script tag to your HTML file after importing Mapbox GL JS:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.2.1/dist/bundle.js
+<script src="https://cdn.jsdelivr.net/npm/mapbox-gl-globe-minimap@1.2.0/dist/bundle.js
 "></script>
 ```
 

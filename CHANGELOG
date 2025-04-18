@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.1
+## 1.2.0
 
 - remove assignment to mapboxgl, fix clearrect
   - Assignment to mapboxgl is no longer required.
